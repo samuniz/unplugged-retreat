@@ -107,7 +107,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 1em;
   text-align: left; 
-  background-color: #202322; 
+  
   color: #e2e3ed
 }
  
@@ -193,6 +193,7 @@ input[type=button] {
   
   header,
   footer {
+    background-color: #202322; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -268,11 +269,12 @@ input[type=button] {
   /* Hero Area */
   
   .hero-area {
+    background-image: url('/img/hero.jpg') center no-repeat #333; 
+    background-size: cover;
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
-    padding: 15px;
-   
+    padding: 15px;    
   }
  
   /* Aside */
@@ -288,6 +290,8 @@ input[type=button] {
   /* Features */
   
   .features {
+    background-image: url('/img/feautures.jpg') center no-repeat #333; 
+    background-size: cover;
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
