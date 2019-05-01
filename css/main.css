@@ -332,6 +332,11 @@ input[type=button] {
     text-align: center;
     margin: 0;
   }
+
+  .features i {
+    font-size: 3.75em;
+    margin-bottom: 40px;
+  }
   
   /* Reviews */
   
@@ -594,6 +599,8 @@ input[type=button] {
       
     }
 
+    
+
     /* Reviews */
     .reviews article {
       display:flex; 
@@ -657,7 +664,7 @@ input[type=button] {
     }
 
   .contact-section, .content-wrapper h2 {
-    width: 80%; 
+    width: 100%; 
     }
 
   .contact-content {
