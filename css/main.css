@@ -291,7 +291,7 @@ input[type=button] {
   /* Hero Area */
   
   .hero-area {
-    background: url('/img/hero.jpg') center  #333; 
+    background: url('../img/hero.jpg') center  #333; 
     background-size: cover;
     min-height: 500px;
     display: flex;
@@ -318,13 +318,13 @@ input[type=button] {
   aside .content-wrapper{
     margin: 0; 
     margin-bottom: 50px; 
-  }
+  } 
 
   
   /* Features */
   
   .features {
-    background: url('/img/feautures.jpg') center #333; 
+    background: url('../img/feautures.jpg') center #333; 
     background-size: cover;
     display: flex;
     justify-content: center;
